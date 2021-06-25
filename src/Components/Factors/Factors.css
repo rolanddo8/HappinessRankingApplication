@@ -1,0 +1,23 @@
+.factor{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: scroll
+}
+
+.factor::-webkit-scrollbar {
+  display: none;
+}
+
+
+.Factors{
+  margin-top: 5em;
+  display: flex;
+  width: 75em;
+  height: fit-content;
+  flex-wrap: wrap;
+  background: white;
+}
+
+

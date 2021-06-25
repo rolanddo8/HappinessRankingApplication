@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  color: beige;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1{
+  font-family: Rubik, sans-serif;
+
+}
+
+.background-app {
+  background: -webkit-linear-gradient(70deg, #02c0ff   30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #0080ff 60%, #0000ff 60%);
+  background: -o-linear-gradient(70deg, #02c0ff  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #0080ff 60%, #0000ff 60%);
+  background: -moz-linear-gradient(70deg, #02c0ff  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #0080ff 60%, #0000ff 60%);
+  background: linear-gradient(70deg, #02c0ff 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #0080ff 60%, #0000ff 60%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 50;
+  overflow: scroll;
+  overflow-x: hidden;
+} 
+
+

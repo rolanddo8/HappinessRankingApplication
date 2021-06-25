@@ -1,0 +1,11 @@
+.BarChart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 400px;
+    height: 800px;
+    overflow: hidden;
+}
+
+
